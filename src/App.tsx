@@ -1,12 +1,12 @@
 import { Header } from './components/Header'
+import { HomeBody } from './components/HomeBody'
 import './index.css'
-import { Post } from './pages/Post'
 
 export default function App() {
   return (
     <>
       <Header />
-      <Post />
+      <HomeBody />
     </>
   )
 }
