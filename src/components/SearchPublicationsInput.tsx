@@ -1,6 +1,6 @@
 export function SearchPublicationsInput() {
   return (
-    <div className="w-full flex flex-col items-center justify-center mt-0">
+    <div className="w-full flex flex-col items-center justify-center mt-48">
       <div className="flex w-full flex-row items-center justify-between mb-3">
         <span className="font-nunito font-bold text-base text-gray-200">
           Publicações
