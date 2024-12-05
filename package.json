@@ -11,17 +11,24 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^7.0.2",
+    "remark-gfm": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.10.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",

@@ -1,4 +1,9 @@
-export function SearchPublicationsInput() {
+interface SearchPublicationsInputProps{
+  pubs:number
+}
+
+
+export function SearchPublicationsInput({pubs}:SearchPublicationsInputProps) {
   return (
     <div className="w-full flex flex-col items-center justify-center mt-48">
       <div className="flex w-full flex-row items-center justify-between mb-3">
@@ -7,7 +12,7 @@ export function SearchPublicationsInput() {
         </span>
 
         <span className="text-gray-400 font-nunito text-base">
-          6 publicações
+         {pubs}
         </span>
       </div>
 

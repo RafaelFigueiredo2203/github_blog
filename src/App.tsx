@@ -1,12 +1,18 @@
+import { RouterProvider } from 'react-router-dom'
 import { Header } from './components/Header'
-import { HomeBody } from './components/HomeBody'
 import './index.css'
+import { Routes } from './routes'
+import { IssueContextProvider } from './utils/context/issue-context'
+
+
 
 export default function App() {
   return (
     <>
+      <IssueContextProvider>
       <Header />
-      <HomeBody />
+      <RouterProvider router={Routes} />
+      </IssueContextProvider>
     </>
   )
 }
