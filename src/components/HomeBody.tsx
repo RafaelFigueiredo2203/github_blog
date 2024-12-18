@@ -8,7 +8,6 @@ import { SearchPublicationsInput } from './SearchPublicationsInput'
 
 export function HomeBody() {
   const { issues, setIssues, user } = useIssueContext()
-  const [loading, setLoading] = useState<boolean>(true)
   const [error, setError] = useState<string | null>(null)
   const [searchPost, setSearchPost] = useState<string>('')
 
@@ -30,10 +29,8 @@ export function HomeBody() {
           },
         )
         setIssues(response.data)
-        setLoading(false)
       } catch (err: unknown) {
         setError('Erro ao buscar as issues.')
-        setLoading(false)
         console.log(err)
       }
     }
@@ -51,7 +48,7 @@ export function HomeBody() {
         followers={user.followers}
       />
 
-      <div className="max-w-[900px] md:mt-0 mt-60">
+      <div className="w-full max-w-[900px] md:mt-0 mt-60">
         <SearchPublicationsInput
           search={searchPost}
           setSearch={setSearchPost}

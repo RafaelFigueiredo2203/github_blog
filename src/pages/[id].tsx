@@ -32,12 +32,12 @@ export function Post() {
     }
 
     fetchIssues()
-  }, [])
+  }, [setIssues])
 
   useEffect(() => {
     const issueById = issues.find((x) => String(x.id) === id)
     setIssue(issueById)
-  }, [issues])
+  }, [id, issues])
 
   if (!issue) {
     return
