@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -13,9 +10,9 @@ export default {
     extend: {
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
-        sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-        serif: ['Nunito', ...defaultTheme.fontFamily.serif],
-        mono: ['Nunito', ...defaultTheme.fontFamily.mono],
+        sans: ['Nunito', 'sans-serif'],
+        serif: ['Nunito', 'sans-serif'],
+        mono: ['Nunito', 'sans-serif'],
       },
     },
   },
