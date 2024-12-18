@@ -1,4 +1,3 @@
-
 import { createBrowserRouter } from 'react-router-dom'
 import { HomeBody } from '../components/HomeBody'
 import { Post } from '../pages/[id]'
