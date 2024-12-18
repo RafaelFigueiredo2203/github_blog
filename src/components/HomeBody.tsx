@@ -33,6 +33,7 @@ export function HomeBody() {
       } catch (err: unknown) {
         setError('Erro ao buscar as issues.')
         console.log(err)
+        console.log(error)
       }
     }
 
