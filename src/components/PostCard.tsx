@@ -22,7 +22,7 @@ export function PostCard({
   date,
 }: PostCardProps) {
   return (
-    <div className="relative mt-[-50px]  w-full max-w-[400px] p-7 md:max-w-[700px] sm:max-w-[400px]  lg:max-w-[900px] md:h-52  rounded-lg shadow-xl flex flex-col items-start justify-start bg-[#0B1B2B]">
+    <div className="relative mt-[-50px]  w-full max-w-[400px] p-7 md:max-w-[700px] sm:max-w-[400px]  lg:max-w-[900px]   rounded-lg shadow-xl flex flex-col items-start justify-start bg-[#0B1B2B]">
       <div className="flex flex-row items-center justify-between w-full">
         <a href="/">
           <span className="flex flex-row items-center justify-center text-xs text-blue-700  hover:text-white">
