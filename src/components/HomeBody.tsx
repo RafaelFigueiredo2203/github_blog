@@ -50,7 +50,7 @@ export function HomeBody() {
         followers={user.followers}
       />
 
-      <div className="w-full max-w-[900px] md:mt-0 mt-60">
+      <div className="w-full max-w-[900px]  ">
         <SearchPublicationsInput
           search={searchPost}
           setSearch={setSearchPost}

@@ -55,7 +55,7 @@ export function Post() {
         issueUrl={issue.html_url}
         date={formatDate(new Date(issue.created_at))}
       />
-      <div className="w-full flex flex-col items-center justify-start bg-[#071422] md:mt-28 mt-60">
+      <div className="w-full flex flex-col items-center justify-start bg-[#071422] mt-6">
         <div className="max-w-[864px] px-10 py-10">
           <Markdown
             className="text-base text-slate-400 "

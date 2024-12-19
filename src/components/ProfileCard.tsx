@@ -16,7 +16,7 @@ export function ProfileCard({
   bio,
 }: ProfileCardProps) {
   return (
-    <div className="absolute top-[35%] max-w-[400px] p-7 md:max-w-[700px] sm:max-w-[400px]  lg:max-w-[900px] md:h-52 rounded-lg shadow-xl flex flex-col md:flex-row items-center justify-center bg-[#0B1B2B]">
+    <div className="relative mt-[-50px]  max-w-[400px] p-7 md:max-w-[700px] sm:max-w-[400px]  lg:max-w-[900px] md:h-52 rounded-lg shadow-xl flex flex-col md:flex-row items-center justify-center bg-[#0B1B2B]">
       <img
         className="w-36 h-36 rounded-md mr-8 lg:mb-0 mb-6"
         src="https://avatars.githubusercontent.com/u/60237326?v=4"
