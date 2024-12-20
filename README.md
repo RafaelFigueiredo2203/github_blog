@@ -5,13 +5,10 @@
 
 <h1 align="center" >
 
-![image](https://github.com/user-attachments/assets/5f5d68c2-41e9-48bb-a474-b04723f6b324)
+![image](https://github.com/user-attachments/assets/33e8e979-9845-47da-a18e-c9d542a49765)
 
 
-
-
-![image](https://github.com/user-attachments/assets/5eb34ae4-fa20-438c-9a11-050016b4dae5)
-
+![image](https://github.com/user-attachments/assets/a5b79e37-96a9-4ce2-a3e0-d0e1856d92d0)
 
 
 
